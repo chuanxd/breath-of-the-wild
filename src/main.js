@@ -3,8 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 Vue.config.productionTip = false
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: process.env.mapToken
+  }
+  // Demonstrating how we can customize the name of the components
+  // installComponents: false
+})
 
 /* eslint-disable no-new */
 new Vue({
