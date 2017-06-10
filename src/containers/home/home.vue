@@ -1,12 +1,18 @@
 <template>
   <div class="home-wrapper">
-    @home
+    <gmap/>
   </div>
 </template>
 
 <script>
+import gmap from './gmap'
+
 export default {
-  name: 'home'
+  name: 'home',
+
+  components: {
+    gmap
+  }
 }
 
 </script>
