@@ -24,7 +24,7 @@ https://chuanxd.github.io/breath-of-the-wild/dist/index#/
 - 地址有全形半形不統一的情況，甚至是地址錯誤，導致轉換不出座標
 
 **空氣品質監測月值**
-**資料的結構不易使用** 
+**資料的結構不易使用**
 
 **工廠多的地方，監測站明顯不足**
 
@@ -40,3 +40,15 @@ https://chuanxd.github.io/breath-of-the-wild/dist/index#/
   - 自動生成API，加快資料開放的更新速度
 
 **單位定義要更友善**
+
+## Build Setup
+``` bash
+# install dependencies
+npm install
+# serve with hot reload at localhost:8080
+npm run dev
+# build for production with minification
+npm run build
+# build for production and view the bundle analyzer report
+npm run build --report
+```
