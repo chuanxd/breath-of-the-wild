@@ -1,10 +1,9 @@
-const TIMEOUT_10S = 10000
+const TIMEOUT_30S = 30000
 
 export default (opts = {}) => {
   return new Promise((resolve, reject) => {
     window.axios(window._.merge({
-      // baseURL: `${process.env.apiUrl}/v1`,
-      timeout: TIMEOUT_10S
+      timeout: TIMEOUT_30S
     }, opts))
     .then((res) => {
       resolve(res)
