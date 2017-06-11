@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home-wrapper {
-  background: red;
-}
+// .home-wrapper {
+//   background: red;
+// }
 </style>
